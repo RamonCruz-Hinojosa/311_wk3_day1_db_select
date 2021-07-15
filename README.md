@@ -40,7 +40,7 @@ Also, put the answers in the "Query Responses" section of this README.
 
    ```
 
-   SELECT \* FROM users WHERE city='Chicago'
+   SELECT * FROM users WHERE city='Chicago'
    ```
 
 2. Select the "state" field for users with a first name of "Glory"
@@ -54,7 +54,7 @@ Also, put the answers in the "Query Responses" section of this README.
 
    ```
 
-   SELECT \* FROM users WHERE phone1 LIKE '773%'
+   SELECT * FROM users WHERE phone1 LIKE '773%'
    ```
 
 ## Query Responses
