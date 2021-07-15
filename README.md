@@ -37,13 +37,13 @@ Also, put the answers in the "Query Responses" section of this README.
 > _NOTE: The query instructions are intentionally written in plain english. It's up to you to translate that into a SELECT statement._
 
 1. Select all fields from users where the city equals Chicago
-   <!-- SELECT * FROM users WHERE city='Chicago' -->
+   SELECT \* FROM users WHERE city='Chicago'
 
 2. Select the "state" field for users with a first name of "Glory"
-   <!-- SELECT state FROM users WHERE first_name='Glory' -->
+   SELECT state FROM users WHERE first_name='Glory'
 
 3. Select all fields from users whose phone1 starts with "773"
-<!-- SELECT * FROM users WHERE phone1 LIKE '773%' -->
+   SELECT \* FROM users WHERE phone1 LIKE '773%'
 
 ## Query Responses
 
